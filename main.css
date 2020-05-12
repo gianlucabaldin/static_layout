@@ -1,0 +1,43 @@
+.site-name {
+  color: lightblue;
+  font-size: 2rem;
+  height: 120px;
+  padding-top: 30px;
+}
+
+.header {
+  height: 400px;
+}
+
+.btn-warning {
+  width: 100%;
+}
+
+.icon {
+  height: 24px;
+  width: 24px;
+  margin-bottom: 10px;
+}
+
+/* DA TENERE ??? */
+/* .card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+} */
+
+.card-container {
+  padding: 0 15px;
+  margin-bottom: 50px;
+}
+
+.media {
+  padding: 20px 20px 30px 40px;
+  border: 1px solid lightgray;
+}
+.avatar {
+  height: 50px;
+  width: 50px;
+  margin-right: 40px;
+}
