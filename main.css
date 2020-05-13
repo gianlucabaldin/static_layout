@@ -49,6 +49,14 @@ body {
   border: 3px solid aquamarine;
 }
 
+.card-title {
+  font-weight: bold;
+}
+
+.card-text {
+  color: lightslategrey;
+}
+
 .footer {
   margin-top: 150px;
 }
