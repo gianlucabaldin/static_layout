@@ -1,12 +1,18 @@
 .site-name {
   color: blue;
   font-size: 2rem;
-  height: 120px;
+  height: 150px;
   padding-top: 30px;
 }
 
 .header {
-  height: 500px;
+  height: 750px;
+}
+
+body {
+  background-image: url("bg-monitor.png");
+  background-repeat: no-repeat;
+  background-position: center top;
 }
 
 .btn-warning {
