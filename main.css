@@ -25,23 +25,29 @@
   flex-direction: column;
   align-items: center;
   padding: 30px;
-} */
+} 
 
 .card-container {
   padding: 0 15px;
   margin-bottom: 50px;
-}
+}*/
 
 .media {
   padding: 20px 20px 30px 40px;
   border: 1px solid lightgray;
   position: relative;
+  box-shadow: 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
 }
 
 .media svg {
   position: absolute;
   top: 20px;
   right: 40px;
+}
+
+.media-subtitle {
+  font-size: 0.75rem;
+  color: grey;
 }
 .avatar {
   height: 50px;
