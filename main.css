@@ -4,15 +4,37 @@
   height: 150px;
   padding-top: 30px;
 }
-
-.header {
-  height: 750px;
+@media (min-width: 1200px) {
+  .header {
+    height: 750px;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .header {
+    height: 520px;
+  }
+}
+@media (max-width: 991px) {
+  .header {
+    height: 520px;
+  }
+}
+@media (min-width: 576px) and (max-width: 767px) {
+  .header {
+    height: 450px;
+  }
 }
 
 body {
   background-image: url("bg-monitor.png");
   background-repeat: no-repeat;
   background-position: center top;
+}
+
+@media (max-width: 1200px) {
+  body {
+    background-size: contain;
+  }
 }
 
 .btn-warning {
