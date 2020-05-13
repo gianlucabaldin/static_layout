@@ -16,7 +16,7 @@ body {
 }
 
 .btn-warning {
-  width: 100%;
+  width: 250px;
 }
 
 .media {
@@ -43,15 +43,27 @@ body {
   border: 3px solid aquamarine;
 }
 
-.card-title {
+.box {
+  background-clip: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.25rem;
+}
+/* when box wraps to a second line use a margin bottom to give space between the upper one and the above one */
+@media (max-width: 992px) {
+  .box {
+    margin-bottom: 1rem;
+  }
+}
+
+.box-title {
   font-weight: bold;
 }
 
-.card-text {
+.box-text {
   color: lightslategrey;
 }
 
-.card i {
+.box i {
   padding-bottom: 20px;
 }
 
