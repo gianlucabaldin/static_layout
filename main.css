@@ -1,5 +1,5 @@
 .site-name {
-  color: lightblue;
+  color: blue;
   font-size: 2rem;
   height: 120px;
   padding-top: 30px;
@@ -26,7 +26,7 @@
   box-shadow: 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
 }
 
-.media svg {
+.media.right-arrow {
   position: absolute;
   top: 20px;
   right: 40px;
